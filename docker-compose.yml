@@ -1,7 +1,7 @@
 version: '3.7'
 services:
-  mysql:
+  openjdk:
     build: .
-    image: mysql:8.0
+    image: 8-slim
     ports:
       - '9999:9999'
